@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" type="image/png" href="img/logo.png"/>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<link rel="stylesheet" href="css/estilo.css">
+		<link rel="stylesheet" href="css/font-awesome.css">
+	</head>
+	<body>
+		<div id="content">
+			<div id="header">
+				<div id="header1">
+					<img src="img/hotel.jpg" alt="imagen1" id="imagen1">
+					<h2 id="texto1">Hotel NH</h2>
+				</div>
+			</div>
+			<div id="section">
+				<div id="section1">
+					<form method="post" action="destino.php">
+					<h3>Form. de reserva</h3>
+						<div>
+							<div>
+								<i class="fa fa-at" aria-hidden="true">
+									<label for="correo">Correo</label>
+								</i>
+							</div>
+							<div>
+								<input type="email" id="correo" name="correo" placeholder="Correo electrónico">
+							</div>
+							<div>
+								<i class="fa fa-user" aria-hidden="true">
+									<label for="personas">Personas</label>
+								</i>
+							</div>
+							<div>
+								<input type="range" id="number" name="number" max="4">
+							</div>
+							<div>
+								<i class="fa fa-calendar" aria-hidden="true">
+									<label for="fecha">Fecha de entrada</label>
+								</i>
+							</div>
+							<div>
+								<input type="date" id="entrada" name="entrada">
+							</div>
+							<div>
+								<i class="fa fa-calendar" aria-hidden="true">
+									<label for="fecha">Fecha de salida</label>
+								</i>
+							</div>
+							<div>
+								<input type="date" id="salida" name="salida">
+							</div>
+							<div>
+								<i class="fa fa-check" aria-hidden="true">
+									<label for="contrato">Acepto las condiciones</label>
+								</i>
+							</div>
+							<div>
+								<input type="checkbox" id="contrato" name="contrato">
+							</div>
+							<div>
+								<input type="submit" value="Reservar">
+							</div>
+						</div>
+					</form>
+				</div>
+				<div id="section2">
+					<iframe id="video" width="100%" src="https://www.youtube.com/embed/QPkw1VgYmbI" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+					<img src="img/piscina.jpg" alt="imagen2" id="imagen2" align="left" width="100%" height="50%">
+				</div>
+			</div>
+			<div id="footer">
+				<div id="footer1">
+				<iframe id="mapa" widht="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.9055721369805!2d-6.004224284513195!3d37.39206534185808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126c0d025212e7%3A0x7c92901ca1fc280a!2sHotel+NH+Sevilla+Plaza+de+Armas!5e0!3m2!1ses-419!2ses!4v1513930837510" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
